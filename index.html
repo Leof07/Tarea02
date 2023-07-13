@@ -7,42 +7,47 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <table>
-        <tbody>
-            <tr>
-                <td> <input type="button" value="Nuevo" class="boton" id="boton1"> </td>
-                <td>Codigo</td>
-                <td>Descripcion</td>
-                <td>codigo de barra</td>
-                <td>Precio Unitario</td>
-                <td>Stock</td>
-                <td>Proveedor</td>
-                <td>Estado</td>
-                <td>Estado</td>
-            </tr>
-            <tr>
-                <td> <input type="button" value="Editar" class="boton" id="boton2"><input type="button" value="Eliminar" class="boton" id="boton3"> </td>
-                <td>1</td>
-                <td>Martillo</td>
-                <td>101253151489</td>
-                <td>2.5</td>
-                <td>10</td>
-                <td>Proveedor 1</td>
-                <td>Si</td>
-                <td>Herramientas</td>
-            </tr>
-            <tr>
-                <td> <input type="button" value="Editar" class="boton" id="boton2"><input type="button" value="Eliminar" class="boton" id="boton3"> </td>
-                <td>2</td>
-                <td>Kit de Herramientas</td>
-                <td>258981235849</td>
-                <td>10.50</td>
-                <td>20</td>
-                <td>Proveedor 2</td>
-                <td>Si</td>
-                <td>Herramientas</td>
-            </tr>
-        </tbody>
-    </table>
+    <header>
+        <h1>Productos Tienda el Baratillo</h1>
+    </header>
+    <section>
+        <table>
+            <tbody>
+                <tr>
+                    <td><button onclick="location.href='producto.html'"class="boton" id="boton1"> <img src="img/mas.png"> Nuevo</button> </td>
+                    <td>Codigo</td>
+                    <td>Descripcion</td>
+                    <td>codigo de barra</td>
+                    <td>Precio Unitario</td>
+                    <td>Stock</td>
+                    <td>Proveedor</td>
+                    <td>Estado</td>
+                    <td>Estado</td>
+                </tr>
+                <tr>
+                    <td> <button class="boton" id="boton2"> <img src="img/editar.png"> Editar</button><button class="boton" id="boton3"> <img src="img/eliminar.png"> Eliminar</button> </td>
+                    <td>1</td>
+                    <td>Martillo</td>
+                    <td>101253151489</td>
+                    <td>2.5</td>
+                    <td>10</td>
+                    <td>Proveedor 1</td>
+                    <td>Si</td>
+                    <td>Herramientas</td>
+                </tr>
+                <tr>
+                    <td> <button class="boton" id="boton2"> <img src="img/editar.png"> Editar</button><button class="boton" id="boton3"> <img src="img/eliminar.png"> Eliminar</button> </td>
+                    <td>2</td>
+                    <td>Kit de Herramientas</td>
+                    <td>258981235849</td>
+                    <td>10.50</td>
+                    <td>20</td>
+                    <td>Proveedor 2</td>
+                    <td>Si</td>
+                    <td>Herramientas</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
 </body>
 </html>

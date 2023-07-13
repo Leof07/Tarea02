@@ -1,21 +1,67 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:x-large
+}
 table,td,th{
     border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
 }
 .boton{
-    height: 30px;
-    width: 100px;
+    font-size: x-large;
+    min-height: 30px;
+    min-width: 100px;
     color: white;
     border-radius: 5px;
-    border: 0;
+    border: 0; 
 }
 #boton1{
     background-color: green;
 }
 #boton2{
-    background-color: blue;
+    background-color: rgb(94, 145, 207);
 }
 #boton3{
     background-color: red;
+}
+section table{
+    margin: 0 auto;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+input[type="text"],select{
+    font-size: x-large;
+    margin: 10px;
+    width:calc(100% - 252px);
+}
+label{
+    display: inline-block;
+    width: 200px;
+}
+form{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.formularioInput{
+    display: block;
+    padding: 16px;
+}
+.formularioAcciones{
+    display: flex;
+    width:100%;
+}
+.BotonGuardar{
+    font-size: x-large;
+    min-height: 30px;
+    min-width: 100px;
+    margin-right: auto;
+}
+.BotonCancelar{
+    font-size: x-large;
+    min-height: 30px;
+    min-width: 100px;
+    margin-left: auto;
 }
